@@ -5,7 +5,7 @@ import joblib
 import time
 from PIL import Image
 
-PAGE_CONFIG = {"page_title":'Gender Application', "page_icon":":smiley:", "layout":"centered"}
+PAGE_CONFIG = {"page_title":'Gender Detection By names', "page_icon":":Wink:", "layout":"centered"}
 st.beta_set_page_config(**PAGE_CONFIG)
 
 # load Vectorizer For Gender Prediction
@@ -68,8 +68,8 @@ def main():
 
 	if st.button("About"):
 
-		st.text("By Naresh")
-		st.text("Built with Streamlit")
+		st.text("Made by Sara")
+		
 
 
 
